@@ -1,0 +1,11 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "购物车设计",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gjun",
+  "license": "ISC"
+}

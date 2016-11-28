@@ -1,0 +1,499 @@
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul,
+var {
+    margin: 0;
+    padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+button,
+html input[type=button],
+input[type=submit] {
+    -webkit-apperance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+em,
+i,
+u {
+    font-style: normal
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+.clear,
+.clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.dorpdown {
+    position: relative
+}
+
+.dorpdown-layer {
+    display: none;
+    position: absolute
+}
+
+.dorpdown:hover .dorpdown-layer,
+.hover .dorpdown-layer {
+    display: block
+}
+
+.cw-icon {
+    position: relative;
+    cursor: default;
+    zoom: 1
+}
+
+.cw-icon .i,
+.cw-icon i {
+    display: block;
+    position: absolute;
+    overflow: hidden
+}
+
+.w {
+    width: 990px;
+    margin: 0 auto
+}
+
+.root61 .w {
+    width: 1210px
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #C81623
+}
+
+.m,
+.mb,
+.mc,
+.mt,
+.p-detail,
+.p-img,
+.p-market,
+.p-name,
+.p-price,
+.sm,
+.smb,
+.smc,
+.smt {
+    overflow: hidden
+}
+
+.container {
+    width: 990px;
+    margin: 20px auto;
+    background-color: #fff
+}
+
+.tpl-head {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 10px;
+    padding: 5px 0;
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+}
+
+.tpl-title {
+    color: #e4393c;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+.tpl-head:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.column {
+    float: left;
+}
+
+.tpl-head .t-checkbox {
+    height: 18px;
+    line-height: 18px;
+    padding-top: 7px;
+    width: 122px;
+    padding-left: 11px;
+}
+
+.tpl-head .t-goods {
+    width: 208px;
+}
+
+.tpl-head .t-props {
+    width: 140px;
+    height: 32px;
+    padding: 0 20px;
+}
+
+.tpl-head .t-price {
+    width: 120px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.tpl-head .t-quantity {
+    width: 80px;
+    text-align: center;
+}
+
+.tpl-head .t-sum {
+    width: 100px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.tpl-head .t-action {
+    width: 75px;
+}
+
+.cart-checkbox {
+    position: relative;
+    z-index: 3;
+    float: left;
+    margin-right: 5px
+}
+
+.cart-checkbox label {
+    display: none
+}
+
+.shop-box {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 0 10px 1px 40px;
+    border-top: 1px solid #c5c5c5;
+    line-height: 20px;
+}
+
+.shop-box:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.shop-box .check-box {
+    position: absolute;
+    z-index: 3;
+    left: 10px;
+    top: 0;
+    width: 30px;
+    min-height: 10px;
+}
+
+.shop-box .column {
+    padding: 15px 0 10px;
+}
+
+.shop-box .shop-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.shop-box .shop-name {
+    width: 208px;
+}
+
+.shop-box .shop-props {
+    width: 160px;
+    height: 80px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 15px 10px 0;
+}
+
+.shop-box .shop-price {
+    width: 120px;
+    padding-right: 40px;
+    font-family: verdana;
+    text-align: right;
+}
+
+.shop-box .shop-num-box {
+    width: 80px;
+}
+
+.quantity-form {
+    position: relative;
+    overflow: hidden;
+    height: 22px;
+    width: 80px;
+}
+
+.quantity-form a {
+    border: 1px solid #cacbcb;
+    border-right: 0;
+    height: 18px;
+    line-height: 18px;
+    padding: 1px 0;
+    width: 16px;
+    text-align: center;
+    color: #666;
+    margin: 0;
+    background: #fff;
+}
+
+.quantity-form .decrement {
+    float: left;
+}
+
+.quantity-form .increment {
+    float: right;
+    border: 1px solid #cacbcb;
+    border-left: 0;
+    color: #666;
+}
+
+.itext {
+    position: absolute;
+    left: 17px;
+    top: 0;
+    border: 1px solid #cacbcb;
+    width: 42px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+    font-size: 12px;
+    font-family: verdana;
+    color: #333;
+    -webkit-appearance: none;
+}
+
+.disabled {
+    background-color: #f8f8f8 !important;
+    color: #ddd !important;
+    cursor: not-allowed !important;
+}
+
+.shop-box .shop-total {
+    width: 100px;
+    padding-right: 40px;
+    text-align: right;
+    font-family: verdana;
+}
+
+.shop-box .shop-total strong {
+    font-weight: 700;
+    color: #333;
+}
+
+.shop-box .tool {
+    width: 75px;
+}
+
+.shop-box.active {
+    background-color: #fff4e8
+}
+
+.tpl-footer {
+    width: 988px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    position: relative;
+}
+
+.tpl-footer .footer-left .inline {
+    float: left;
+}
+
+.tpl-footer .footer-left .ck-all {
+    height: 18px;
+    line-height: 18px;
+    padding: 16px 0 16px 9px;
+    white-space: nowrap;
+}
+
+.tpl-footer .footer-left .links {
+    height: 50px;
+    width: 310px;
+    line-height: 50px;
+}
+
+.tpl-footer .footer-left .links a {
+    float: left;
+    margin-left: 10px;
+    color: #666;
+}
+
+.total-price {
+    height: 43px;
+    line-height: 20px;
+    margin: 7px 20px 0 10px;
+    color: #666;
+    width: auto;
+    position: relative;
+}
+.total-price div{
+	    white-space: nowrap;
+}
+.total-price .txt{
+	 float: left;
+    width: 50px;
+    text-align: right;
+    color: #999;
+}
+.total-price .price{
+	    display: inline-block;
+    text-align: right;
+    font-family: verdana
+}
+.total-price .price em{
+	    font-size: 16px;
+    color: #e4393c;
+    font-weight: 700;
+}
+
+.go-pay .btn-submit{
+	    display: block;
+    position: relative;
+    width: 96px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    background: #e54346;
+    overflow: hidden;
+}
