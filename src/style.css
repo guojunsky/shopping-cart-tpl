@@ -464,28 +464,32 @@ a:hover {
     width: auto;
     position: relative;
 }
-.total-price div{
-	    white-space: nowrap;
+
+.total-price div {
+    white-space: nowrap;
 }
-.total-price .txt{
-	 float: left;
+
+.total-price .txt {
+    float: left;
     width: 50px;
     text-align: right;
     color: #999;
 }
-.total-price .price{
-	    display: inline-block;
+
+.total-price .price {
+    display: inline-block;
     text-align: right;
     font-family: verdana
 }
-.total-price .price em{
-	    font-size: 16px;
+
+.total-price .price em {
+    font-size: 16px;
     color: #e4393c;
     font-weight: 700;
 }
 
-.go-pay .btn-submit{
-	    display: block;
+.go-pay .btn-submit {
+    display: block;
     position: relative;
     width: 96px;
     height: 52px;
