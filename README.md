@@ -1,5 +1,7 @@
 # 购物车统一模板
 > 依赖artTemplate  jquery 
+
+
 ##使用方法
 ```js
 new ShoppingCart(element,config)
